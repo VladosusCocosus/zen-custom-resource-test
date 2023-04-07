@@ -1,0 +1,8 @@
+{ns custom
+ import #{zen.fhir}
+ base-schemas {:zen/tags #{zen.fhir/base-schemas}
+ :schemas {"SomeOne" { "SomeOne" #zen/quote custom.SomeOne/schema }
+"SomeOther" { "SomeOther" #zen/quote custom.SomeOther/schema }
+"EmailNotification" { "EmailNotification" #zen/quote custom.EmailNotification/schema }
+}}
+ig {:zen/tags #{zen.fhir/ig},:base-schemas base-schemas}}

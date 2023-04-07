@@ -1,0 +1,1 @@
+{ns custom.SomeOne, import #{zenbox zen.fhir aidbox.repository.v1}, schema {:zen/tags #{aidbox.repository.v1/repository zen/schema zen.fhir/base-schema}, :confirms #{zen.fhir/Resource}, :extra-parameter-sources :all, :zen.fhir/version "0.5.11", :zen.fhir/type "SomeOne", :keys {:data {:type zen/string}}, :type zen/map}}
