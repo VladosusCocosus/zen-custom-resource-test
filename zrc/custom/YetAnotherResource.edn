@@ -1,0 +1,10 @@
+{ns     custom.YetAnotherResource,
+ import #{zenbox zen.fhir aidbox.repository.v1 hl7-fhir-r4-core.Appointment},
+ schema {:zen/tags                #{aidbox.repository.v1/repository zen/schema zen.fhir/base-schema},
+         :confirms                #{zen.fhir/Resource},
+         :extra-parameter-sources :all,
+         :zen.fhir/version        "0.5.11",
+         :zen.fhir/type           "YetAnotherResource",
+         :require                 #{:status :body :to},
+         :keys                    {:data       {:validation-type :open}},
+         :type                    zen/map}}

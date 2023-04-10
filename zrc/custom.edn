@@ -4,5 +4,6 @@
  :schemas {"SomeOne" { "SomeOne" #zen/quote custom.SomeOne/schema }
 "SomeOther" { "SomeOther" #zen/quote custom.SomeOther/schema }
 "EmailNotification" { "EmailNotification" #zen/quote custom.EmailNotification/schema }
+"YetAnotherResource" { "YetAnotherResource" #zen/quote custom.YetAnotherResource/schema }
 }}
 ig {:zen/tags #{zen.fhir/ig},:base-schemas base-schemas}}
